@@ -16,8 +16,8 @@ for port in range(0, 65535):
     result = sock.connect_ex((ip, port))
 
     if result == 0:
-        print("Open port found:", port)
+        print(f"Port {port} is OPEN ✅")
         sock.close()
     else:
-        print("Closed port found:", port)
+        print(f"Port {port} is CLOSED ❌")
         sock.close()
