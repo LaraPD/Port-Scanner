@@ -1,5 +1,4 @@
 # PORT SCANNER
-
 # The objective of this script is to create a simple port scanner that checks for open ports on a target host.
 
 # Import the socket library that allows us to create network connections from Python
