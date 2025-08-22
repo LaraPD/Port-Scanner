@@ -7,10 +7,9 @@ Informa qué puertos están abiertos o cerrados. Su diseño es simple y legible.
 
 ## ✨ Características  
 - Entrada del usuario: host y rango de puertos.  
-- Muestra el resultado de cada puerto (ABIERTO ✅ / CERRADO ❌).  
-- Imprime un resumen final con los puertos abiertos.  
-- Solo realiza escaneo TCP (no UDP).  
-- No detecta servicios: únicamente muestra si el puerto está abierto o cerrado.  
+- Muestra el resultado de cada puerto (CERRADO ❌ / ABIERTO ✅) e imprime un resumen final con estos últimos.  
+- Solo realiza escaneo TCP.  
+- No detecta servicios ya que únicamente muestra si el puerto está abierto o cerrado.  
 
 ## 📚 Requisitos  
 - Python 3.x  
@@ -22,17 +21,20 @@ Clona el repositorio y ejecuta el script desde la terminal:
 ```bash
 python port_scanner.py
 ```
-❗You will be prompted for target IP and a port range
+❗Se solicitará la dirección IP y un rango de puertos.
 
 ## ✍️ Example
 <img width="318" height="297" alt="image" src="https://github.com/user-attachments/assets/3bc70b56-a3ba-4da8-80ac-4dab03cec727" />
 
-## 📌 Recommendations
-- Use small ranges to reduce scan time.
-- Be aware that firewalls or security tools may block or log your scans.
-- Increase/decrease the settimeout() value depending on network latency.
-- Maybe you need administrator/root privileges to scan lower ports (<1024).
+## 📌 Recommendaciones
+- Usa rangos pequeños para reducir el tiempo de escaneo.
+- Ten en cuenta que los firewalls o herramientas de seguridad pueden bloquear o registrar tus escaneos.
+- Ajusta el valor de settimeout() según la latencia de tu red.
+- Puede que necesites privilegios de administrador/root para escanear puertos bajos (<1024).
 
-⚠️ Only scan systems you own or have explicit permission to test. Unauthorized scanning may be ILLEGAL ⚠️
+⚠️ Escanea únicamente sistemas que sean tuyos o para los que tengas permiso expreso. El escaneo no autorizado puede ser ILEGAL ⚠️
+
+
+
 
 
