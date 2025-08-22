@@ -22,6 +22,7 @@ Clona el repositorio y ejecuta el script desde la terminal:
 python port_scanner.py
 ```
 🐍 [Ir al código](port_scanner.py)   
+
 ❗Se solicitará la dirección IP y un rango de puertos.
 
 ## ✍️ Example
