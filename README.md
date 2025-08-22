@@ -23,6 +23,8 @@ Clone the repository and run the script from the terminal:
 ```bash
 python port_scanner.py
 ```
+🐍 [Go to the code](port_scanner.py) 
+
 ❗You will be prompted for target IP and a port range
 
 ## ✍️ Example
