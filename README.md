@@ -23,7 +23,7 @@ Clone the repository and run the script from the terminal:
 ```bash
 python port_scanner.py
 ```
->> You will be prompted for target IP and a port range <<
+❗You will be prompted for target IP and a port range
 
 ## ✍️ Example
 <img width="318" height="297" alt="image" src="https://github.com/user-attachments/assets/3bc70b56-a3ba-4da8-80ac-4dab03cec727" />
