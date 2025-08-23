@@ -30,6 +30,21 @@ python port_scanner.py
 ## ✍️ Example
 <img width="318" height="297" alt="image" src="https://github.com/user-attachments/assets/3bc70b56-a3ba-4da8-80ac-4dab03cec727" />
 
+## ⏳ Tip (Only Windows)
+If you want to compare the script results with the current network activity on your machine, run in the CMD terminal:
+
+```bash
+netstat -b
+```
+This lists active connections and the executables using them.
+
+or...
+
+if you only need ports and states (no executables), you can use:
+```bash
+netstat -an
+```
+
 ## 📌 Recommendations
 - Use small ranges to reduce scan time.
 - Be aware that firewalls or security tools may block or log your scans.
