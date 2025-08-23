@@ -38,9 +38,7 @@ netstat -b
 ```
 This lists active connections and the executables using them.
 
-or...
-
-if you only need ports and states (no executables), you can use:
+However, if you only need ports and states (no executables), you can use:
 ```bash
 netstat -an
 ```
