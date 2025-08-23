@@ -36,9 +36,7 @@ netstat -b
 ```
 Este comando muestra las conexiones activas y los ejecutables que las utilizan (puede requerir privilegios de administrador).
 
-o...
-
-Si solo necesitas ver los puertos y sus estados (sin ejecutables), puedes usar:
+Sin embargo, si solo necesitas ver los puertos y sus estados (sin ejecutables), puedes usar:
 ```bash
 netstat -an
 ```
